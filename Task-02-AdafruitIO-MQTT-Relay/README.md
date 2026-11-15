@@ -32,10 +32,17 @@ Dashboard toggle → Adafruit IO broker → feed `esp` → ESP32 `onMessage` →
 ## Code
 [`Task_02_Adafruit_MQTT_Relay.ino`](Task_02_Adafruit_MQTT_Relay.ino) — placeholders for Wi-Fi and Adafruit credentials. If your relay is active-LOW, swap HIGH/LOW in `handleMessage`.
 
+## Adafruit IO Feeds page
+![Feeds](images/adafruit-feeds.jpg)
+
 ## Photos
 | Bulb ON | Bulb OFF |
 |---|---|
 | ![](images/bulb-on.jpg) | ![](images/bulb-off.jpg) |
+
+Relay module on the breadboard: ![](images/breadboard-relay.jpg)
+
+**Video:** [`images/demo-bulb-phone.mp4`](images/demo-bulb-phone.mp4) — the bulb switching while the operator works from a phone.
 
 ## Problems and learnings
 - Credentials in firmware are a liability; use placeholders in git.

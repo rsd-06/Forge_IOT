@@ -36,5 +36,8 @@ Voice → assistant → IFTTT applet → Adafruit IO feed `esp` → (MQTT) → E
 - Any hop failing breaks the chain; the Adafruit IO activity feed is the quickest place to check.
 - IFTTT free tier limits applets and runs.
 
+## Adafruit IO feed (real screenshot)
+![Feeds](images/adafruit-feeds.jpg)
+
 ## To add
 Screenshots of your own applets and a short voice demo video — put them in `images/`.

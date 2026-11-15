@@ -38,6 +38,12 @@ Optional external LED: GPIO → 220 Ω → LED(+) … LED(−) → GND.
 |---|---|---|
 | ![](images/arduino-upload.jpeg) | ![](images/web-ui-control.jpeg) | ![](images/esp32-led-on.jpeg) |
 
+| Styled page, board in hand (station mode, `192.168.137.186`) | Breadboard: ESP32, relay module, LED, push button |
+|---|---|
+| ![](images/esp32-playground-ui.jpg) | ![](images/breadboard-relay.jpg) |
+
+**Videos:** [`images/demo-led-web-board.mp4`](images/demo-led-web-board.mp4) — page at `192.168.4.1` next to the board. The original demo is on the portfolio page.
+
 ## Problems and learnings
 - ESP32 supports **2.4 GHz** Wi-Fi only; a 5 GHz-only SSID never connects.
 - The page is part of the firmware, so changing a colour means re-flashing.
